@@ -1,0 +1,14 @@
+X: 1
+T:Piece No.1
+M:C
+L:1/4
+Q: 140
+V: upper
+V: lower
+K:C
+V: upper
+% comments go here
+^a'' | [1 b,,,, __c |
+V: lower
+%
+[DEF] | (3ABC |

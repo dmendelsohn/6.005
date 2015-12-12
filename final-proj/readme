@@ -1,0 +1,28 @@
+repository for project 2 6.005
+
+jcotler-keanu-dmendels
+
+To run the real-time collaborative editor:
+First run Server.java with args.
+The first arg must be '-p'
+The second arg is an integer representing the port number
+Running Server.java without args results in the server listening in at localhost.
+
+Running clients on different machines does not work because we could not determine how to open up a port at an MIT ip address.
+
+Then, run ClientGUI.
+In the first JDialog box, enter the host ip.
+In the second JDialog box, enter the port number.
+A main frame should open with buttons, a combo box, and a text field.
+For the first client to connect to the server, click "New Document" and give it a title.
+This will create a document with the specified title to work on. Otherwise, the text field is not editable.
+Clicking "New Document" multiple times creates multiple documents.
+Switch between documents by selecting the document title in the combo box.
+Edit text of documents by typing and deleting with delete or backspace.
+Do not hold down the 'delete' or 'backspace' key.
+Format documents by clicking 'B' for toggling bold, 'I' for toggling italic, and 'U' for toggling underline.
+Do not select text and click formatting buttons; these changes will not transmit between clients.
+Clicking these buttons will also allow you to type in different formats.
+
+Run ClientGUI each time you want a new client to connect to the server.
+Enjoy real-time collaborative editing!
